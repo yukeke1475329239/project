@@ -1,0 +1,44 @@
+*{
+	margin:0;padding:0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#One1,#Two2,#Three3,#Four4,#Five5,#Six6,#Seven7{
+	width: 100%;
+     height: 100%;
+}
+
+.footer2{
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    position: fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-around;
+    color:#fff;
+  }
+  .content{
+    width: 89%;
+    height: 300px;
+   
+    position: absolute;
+    top:22%;
+    left:6%;
+  }
+  .wrap {
+    margin:15px 0;
+    display:flex;
+    height: 36px;
+    line-height: 36px;
+  }
+  .wrap img{
+    width: 35px;
+    height: 35px;
+    z-index: 10;
+  }
+  .wrap span{
+    padding-left:8px;
+  }
